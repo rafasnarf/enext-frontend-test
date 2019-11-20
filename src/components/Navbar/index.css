@@ -1,0 +1,20 @@
+.nav-menu{
+  font-size: 20px;
+  background-color: #523468;
+  width: 100%;
+}
+.nav-menu ul li {
+  text-decoration: none;
+  display: inline-flex;
+  padding: 20px;
+  font-style: italic;
+  color: #fff;
+}
+.clear {
+  background-color: #422A53;
+  border-radius: 15px;
+  margin: 10px 0px ;
+}
+#ou {
+  color: #93496B;
+}
