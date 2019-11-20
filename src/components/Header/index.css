@@ -1,0 +1,89 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+.merlin{
+  margin-left: 40px;
+}
+#merlins{
+  font-size: 50px;
+  color: #d7391e;
+  margin-left: 40px;
+  margin: 0px 40px;
+  align-self: center;
+}
+#moto{
+  color: #654a79;
+  text-align: center;
+  overflow: hidden;
+  margin: 0px 40px;
+  margin-left: 40px;
+  font-size: 25px;
+  font-style: italic;
+}
+#moto:before,
+#moto:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+#moto:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+#moto:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.search{
+  align-self: center;
+  padding: 0px 40px;
+}
+.search input{
+  background-image: url(../../assets/images/lupa1.png);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  border-color: gray;
+  border-width: 2px;
+  text-align: center;
+  font-size: 20px;
+  color: darkgrey;
+  padding: 10px 30px;
+}
+.cart{
+  align-self: center;
+  display: flex;
+  align-items: center;
+  color: #d7391e;
+  font-size: 30px;
+}
+.free{
+  display: inline-table;
+  text-align: center;
+}
+p{
+  margin: 10px;
+}
+.free p{
+
+}
+.cart p span{
+   font-size: 28px;
+}
+img{
+  width: 50px;
+  height: 70px;
+  align-self: center;
+  padding:0px 20px;
+}
+#bag{
+  color: darkgray;
+  display: flex;
+}
