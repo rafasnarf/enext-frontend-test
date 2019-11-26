@@ -1,4 +1,42 @@
-.potion {
-  display: flex;
-  text-decoration: none;
+.main-container{
+  max-width: 90%;
+  text-align: center;
+}
+
+.main-container h1{
+  text-align: left;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+.main-container ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 30px;
+  margin-top: 50px;
+}
+
+.main-container ul li{
+  display: inline-block;
+  flex-direction: column;
+}
+
+.main-container ul img{
+  width: 200px;
+  height: 200px;
+}
+.main-container ul li ul{
+  display: inline-flex;
+}
+
+#name {
+  font-size: large;
+  font-weight: bold;
+  padding: 0px 4px;
+}
+#price{
+  color: #d7391e;
+  padding: 0px 4px;
+  padding-top: 4px
 }
