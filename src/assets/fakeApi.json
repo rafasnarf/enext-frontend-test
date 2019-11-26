@@ -3,7 +3,7 @@
     "1": {
       "id": 1,
       "name": "Aging Potion",
-      "image": "../../assets/images/products/aging-potion.png",
+      "image": "aging-potion.png",
       "price": 29.99,
       "effect": "Causes the drinker to advance in age",
       "ingredients": [
