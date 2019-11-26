@@ -8,7 +8,7 @@ class Section extends React.Component {
   renderPotion(row) {
     return (
       <ul>
-        <li id='image'>{row.image}</li>
+        <img src={row.image} alt={row.name} />
         <li id='name'>{row.name}</li>
         <li id='price'>{row.price}</li>
       </ul>)
